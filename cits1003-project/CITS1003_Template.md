@@ -10,8 +10,10 @@
 # Part 1 - Linux and Networking
 ## Emu Hack #1 - Backdoored
 ### Step 1
-A clear, and detailed description. 
-
+Scanning for Open Ports:
+Use ‘nmap’ to perform a port scan to identify the backdoor port left by the hackers. The scan range is 61000 to 61500. 
+```bash
+nmap -p 61000-61500 -Pn 34.116.68.59
 ### Step 2
 ### Step X
 
